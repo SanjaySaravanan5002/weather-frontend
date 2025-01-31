@@ -9,17 +9,15 @@ const Login = ({ setIsAuthenticated }) => {
   const navigate = useNavigate();
 
   const handleLogin = async (e) => {
-    e.preventDefault(); // Prevent form refresh on submit
+    e.preventDefault(); 
 
     if (email && password) {
-      setLoading(true); // Set loading state while processing the request
-
+      setLoading(true); 
       try {
-        // Example: Simulating API call with a delay
-        // In real use, replace the following lines with actual API call.
+      
         setTimeout(() => {
-          // Simulating a successful login response
-          localStorage.setItem("token", "your_token_here"); // Use actual token here
+          
+          localStorage.setItem("token", "your_token_here"); 
           setIsAuthenticated(true);
           navigate("/");
           setLoading(false); // Reset loading state

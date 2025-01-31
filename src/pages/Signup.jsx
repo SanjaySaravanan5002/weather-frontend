@@ -18,7 +18,7 @@ const Signup = () => {
 
       if (response.ok) {
         alert("Signup successful! Redirecting to home...");
-        navigate("/"); // Redirect to home page after successful signup
+        navigate("/"); 
       } else {
         alert(data.message);
       }

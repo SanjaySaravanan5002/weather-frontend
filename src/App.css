@@ -1,4 +1,4 @@
-/* App Container */
+
 .app {
   text-align: center;
   padding: 20px;
@@ -7,17 +7,15 @@
   align-items: center;
 }
 
-/* Header */
 h1 {
   margin-top: 20px;
 }
 
-/* Search Bar */
 .search-bar {
   margin-bottom: 20px;
 }
 
-/* Weather Card */
+
 .weather-card {
   background-color: white;
   border-radius: 12px;
@@ -27,7 +25,7 @@ h1 {
   margin: 20px;
 }
 
-/* Error Message */
+
 .error-message {
   margin-top: 20px;
   padding: 10px;
@@ -38,7 +36,7 @@ h1 {
   text-align: center;
 }
 
-/* Auth Container (Login & Signup forms) */
+
 .auth-container {
   position: absolute;
   top: 20px;
@@ -52,7 +50,6 @@ h1 {
   z-index: 10;
 }
 
-/* Auth Form Styling */
 .auth-container input {
   width: 100%;
   padding: 10px;
@@ -75,7 +72,7 @@ h1 {
   background-color: #0056b3;
 }
 
-/* Search Bar */
+
 .search-bar input {
   padding: 10px;
   border-radius: 5px;
