@@ -5,7 +5,7 @@ import SearchBar from "./Components/SearchBar";
 import ErrorMessage from "./Components/ErrorMessage";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
-
+import WeatherCard from "./Components/WeatherCard";
 const App = () => {
   const [weather, setWeather] = useState(null);
   const [error, setError] = useState("");
